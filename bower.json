@@ -1,0 +1,22 @@
+{
+  "name": "swingband3",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "mmchenry22 <matthewmchenry@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/mmchenry22/SwingBand2",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "angular": "^1.6.0",
+    "angular-route": "^1.6.0"
+  }
+}
