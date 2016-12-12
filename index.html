@@ -2,6 +2,7 @@
 <html ng-app="TodoApp">
 <head>
     <title>Angular Todo</title>
+    <base href="/"> <!-- needed for Angular's HTML 5 mode -->
     <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap-custom.css">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
@@ -20,10 +21,10 @@
 				<a class="navbar-brand" href="#!/">Angular Todo</a>
 			</div>
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#!/">Home</a></li>
-				<li><a href="#!/ourmusic">Our Music</a></li>
-				<li><a href="#!/bookings">Bookings</a></li>
-				<li><a href="#!/aboutus">Meet the band</a></li>
+				<li><a href="/">Home</a></li>
+				<li><a href="/ourmusic">Our Music</a></li>
+				<li><a href="/bookings">Bookings</a></li>
+				<li><a href="/aboutus">Meet the band</a></li>
 			</ul>
 		</div>
 	</nav>
